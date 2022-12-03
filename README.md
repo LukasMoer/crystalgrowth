@@ -15,6 +15,8 @@ Crystal structure of quartz rich marble.
 
 Source:  Strekeisen, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
+Voronoi diagrams provide a very simple model to describe the growth and formation of the boundaries as seen in the pictures above. 
+
 ## How it works
 sfsdf
 
