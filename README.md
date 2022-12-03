@@ -1,11 +1,17 @@
 # Crystal growth Simulation
-##Abstract
+Voronoi 
+
+
+#Abstract
 fsjlkf nskflfjdfsd lsfds
 
-##
 
-##How it works
+---
+#How it works
 sfsdf
-##Todo
+
+#Todo
 ffsdsdf
+
+#References
 
