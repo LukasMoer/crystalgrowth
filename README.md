@@ -9,6 +9,7 @@ Crystal Structure of Pearlite and Ferrite in Steel
 
 Source: Samson00, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 
+![Marble](Stained_marble.JPG "Crystal Structure of Pearlite and Ferrite in Steel. Source: Samson00, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons")
 
 Crystal structure of quartz rich marble. 
 
