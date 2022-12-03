@@ -14,7 +14,7 @@ Source: Samson00, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>,
 Crystal structure of quartz rich marble. 
 
 Source:  Strekeisen, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
----
+
 ## How it works
 sfsdf
 
