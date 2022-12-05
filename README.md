@@ -42,7 +42,7 @@ So far, this is the procedure to create a voronoi diagram with radial expanding 
 The parameter SHAPE determines how many edges the polygons should have. 
 
 Also, we need one more variable in our list of crystal seeds: the angle a of orientation!
-crystals = [ [x1,y1,a1], [x2,y2,a2],..]. 
+crystals = [ [x1,y1,φ1], [x2,y2,φ2],..]. 
 We use random numbers here, from 0 to 2 pi. 
 
 While the range of a growing cell was solely described by R so far. But for the polygon, R describes the radius of the circumscribed circle. The extend of the cell depends on the direction.
@@ -50,6 +50,13 @@ While the range of a growing cell was solely described by R so far. But for the 
 
 ![R(a) geometry](hexagon.png)
 ![R(a) plot](plot.png)
+
+This function r(a) is periodic, which means that we can take advantage of the property r(a)=r(a-pi*(k-2)/2k) with k being an integer. 
+Note that a is the angle in the crystal's coordinate system. It is obtained by substracting the orientation angle φ from the absolute angle of the distance vector. 
+
+[relative and absolute coordinates](coordinate.png)
+
+
 
 ## Todo
 ffsdsdf
