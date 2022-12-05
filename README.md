@@ -22,7 +22,13 @@ However, this model neglects some important behaviours: First, crystals are anis
 Hence, **this Program implements Voronoi Diagrams with polygonal growing seeds instead of circular growing ones** . The result is saved as a gif file.
 
 ## How it works
-sfsdf
+We start with an n x n grid (Parameter SIZE = n) and randomly select m pixels (Parameter SEEDS = m) on that grid. These are our crystal seeds! We create a list where we store them:
+crystals = [ [x1,y1], [x2,y2],..]. 
+
+By default, an empty pixel on the grid has the value -m, in order to enhance the contrast when plotting. An occupied pixel is assigned the index of the respective crystal.
+
+
+
 
 ## Todo
 ffsdsdf
