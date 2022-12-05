@@ -37,6 +37,11 @@ In the picture below, we see such an assignment for a pixel. The crystal radius 
 
 The growth is completed when the sum of the grid doesnt change anymore. However, due to the discretization, it might happen at the beginning that the sum doesnt change at first. To solve this, we require R to be greater than a treshold T. We choose T= (SIZE² / SEEDS)^1/2, which is the average Radius of a crystal, when the full area is divided equally by all crystals.
 
+So far, this is the procedure to create a voronoi diagram with radial expanding cells. We now have to generalize the program to let the expanding cells have an arbitirary polygonal shape, where radial expanding cells are a special case for an infinite number of edges.
+
+Therefore, we need one more variable in our list of crystal seeds: the angle of orientation a!
+crystals = [ [x1,y1,a1], [x2,y2,a2],..]. 
+
 
 ## Todo
 ffsdsdf
