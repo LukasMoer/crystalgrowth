@@ -1,7 +1,7 @@
 # Crystal Growth Simulation
 December 2022
 
-![Program Output](crystal.gif "Program outout")
+![Program Output](crystal.gif "Program output")
 Program output 
 
 ---
@@ -27,6 +27,13 @@ crystals = [ [x1,y1], [x2,y2],..].
 
 By default, an empty pixel on the grid has the value -m, in order to enhance the contrast when plotting. An occupied pixel is assigned the index of the respective crystal.
 
+![Basic grid](grid1.png)
+
+Now we let these seeds grow, step by step. Initially, we start with the Radius R=0. With every step, we scan every pixel from left to right (0<=j<n), line by line (0<=i<n). We check every pixel at the position [j,i] if it's distance to any seed in the crystal list is smaller than the current Radius R. If so, the pixel will be assigned the index of the respective seed.  
+
+In the picture below, we see such an assignment for a pixel. The crystal radius is R=2 already. A loop computes the distance to each seed and checks if the distance <= R. If so, the loop breaks. This means that the regarded pixel in our example is assigned the value 0 and not 2-
+
+![Checking a pixel](grid2.png)
 
 
 
