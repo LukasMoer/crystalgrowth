@@ -47,6 +47,10 @@ We use random numbers here, from 0 to 2 pi.
 
 While the range of a growing cell was solely described by R so far. But for the polygon, R describes the radius of the circumscribed circle. The extend of the cell depends on the direction.
 
+
+![R(a) geometry](hexagon.png)
+![R(a) plot](plot.png)
+
 ## Todo
 ffsdsdf
 
