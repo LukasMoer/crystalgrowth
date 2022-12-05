@@ -1,5 +1,11 @@
 # Crystal Growth Simulation
 
+
+![Program Output](crystal.gif "Program outout")
+Program output 
+
+---
+
 ## Motivation
 A close look at polycrystalline Materials under the microscope (especially with polarized light) often reveals impressing structures, where the individual crystals are visible and gives insights into the conditions under which the formation took place.
 
@@ -20,7 +26,7 @@ Voronoi diagrams provide a very simple model to describe the growth and formatio
 
 However, this model neglects some important behaviours: First, crystals are anisotropical and dont grow as circles. Second, the growth speed increases the larger a seed has already grown, as the Energy required to expand the crystal against its surface tension becomes less significant.
 
-Hence, **this Program implements Voronoi Diagrams with polygonal growing seeds instead of circular growing ones** . 
+Hence, **this Program implements Voronoi Diagrams with polygonal growing seeds instead of circular growing ones** . The result is saved as a gif file.
 
 ## How it works
 sfsdf
