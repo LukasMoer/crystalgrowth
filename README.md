@@ -54,7 +54,7 @@ While the range of a growing cell was solely described by R so far. But for the 
 This function r(a) is periodic, which means that we can take advantage of the property r(a)=r(a-pi*(k-2)/2k) with k being an integer. 
 Note that a is the angle in the crystal's coordinate system. It is obtained by substracting the orientation angle φ from the absolute angle of the distance vector. 
 
-[relative and absolute coordinates](coordinate.png)
+![relative and absolute coordinates](coordinate.png)
 
 
 
