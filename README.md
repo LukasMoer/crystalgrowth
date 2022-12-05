@@ -1,5 +1,5 @@
 # Crystal Growth Simulation
-
+December 2022
 
 ![Program Output](crystal.gif "Program outout")
 Program output 
