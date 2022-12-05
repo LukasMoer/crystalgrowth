@@ -35,6 +35,7 @@ In the picture below, we see such an assignment for a pixel. The crystal radius 
 
 ![Checking a pixel](grid2.png)
 
+The growth is completed when the sum of the grid doesnt change anymore. However, due to the discretization, it might happen at the beginning that the sum doesnt change at first. To solve this, we require R to be greater than a treshold T. We choose T= (SIZE² / SEEDS)^1/2, which is the average Radius of a crystal, when the full area is divided equally by all crystals.
 
 
 ## Todo
