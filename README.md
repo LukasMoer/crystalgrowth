@@ -9,7 +9,7 @@ Program output
 ## Motivation
 A close look at polycrystalline Materials under the microscope (especially with polarized light) often reveals impressing structures, where the individual crystals are visible and gives insights into the conditions under which the formation took place.
 
-![Marble](Stained_marble.JPG "Crystal Structure of Pearlite and Ferrite in Steel. Source: Samson00, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons")
+![Marble](Stained_marble.JPG "Source:  Strekeisen, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons")
 
 Crystal structure of quartz rich marble. 
 Source:  Strekeisen, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
@@ -56,6 +56,22 @@ Note that a is the angle in the crystal's coordinate system. It is obtained by s
 
 ![relative and absolute coordinates](coordinate.png)
 
+Using trogonometric functions, we get:
+$$r(a) = \sqrt{ ({R tan(b)\over tan(a)+tan(b)})^2 + ({R tan(a) tan(b) \over {tan(a) + tan(b)}})^2}$$
+
+with
+
+$$ a = \theta - \phi $$
+
+a  relative angle of the distance vector
+
+θ  absolute angle of the distance vector
+
+φ  angle of the crystal orientation
+
+and
+
+$$b = {\pi * (SHAPE - 2)} \over {2 * SHAPE}  $$
 
 
 ## Todo
