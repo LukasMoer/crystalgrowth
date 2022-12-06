@@ -75,7 +75,10 @@ $$b = {\pi * (SHAPE - 2)} \over {2 * SHAPE}  $$
 
 
 ## Todo
-ffsdsdf
+- [ ] Individual growth speeds depending on the crystal's size
+- [ ] Historigram of the crystal size distribbution
+- [ ] Binary phases
+- [ ] Spontaneous formation of new seeds midst growth
 
 ## References
 
